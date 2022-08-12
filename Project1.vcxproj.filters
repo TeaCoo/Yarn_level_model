@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="extern">
+      <UniqueIdentifier>{175036b7-ed38-4bb9-a386-123b538f94a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\include">
+      <UniqueIdentifier>{9a166a14-eabb-4e89-ad1c-acb7562d5988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\source">
+      <UniqueIdentifier>{daa49318-896b-4f73-8efe-a572b5cb2bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\include\Alglib">
+      <UniqueIdentifier>{bf470544-7c1c-494c-9f6e-b443334278f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\source\Alglib">
+      <UniqueIdentifier>{b24c78f8-5576-432c-b17a-e10550048b94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\alglibinternal.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\alglibmisc.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\ap.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\dataanalysis.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\diffequations.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\fasttransforms.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\integration.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\interpolation.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\kernels_avx2.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\kernels_fma.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\kernels_sse2.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\linalg.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\optimization.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\solvers.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\specialfunctions.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\Alglib\statistics.cpp">
+      <Filter>extern\source\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AugLag.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BVH.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Cloth.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CollisionUtil.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Loader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MatrixMp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mesh.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Obstacle.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PhysicsCloth.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Render.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Saver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MySolver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TrainHelper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extern\include\Alglib\alglibinternal.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\alglibmisc.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\ap.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\dataanalysis.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\diffequations.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\fasttransforms.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\integration.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\interpolation.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\kernels_avx2.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\kernels_fma.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\kernels_sse2.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\linalg.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\optimization.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\solvers.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\specialfunctions.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\statistics.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\Alglib\stdafx.h">
+      <Filter>extern\include\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AugLag.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClothUnit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Yarn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BVH.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cloth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Collision.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CollisionUtil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Debugger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Environment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ForceNet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Loader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MatrixMp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Obstacle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhysicsCloth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Render.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Saver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Simulate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MySolver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TestHeter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TestHomo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Train.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrainColli.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrainControl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrainEmbed.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrainHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrainHeter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrainHomo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Wind.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\YarnSimNet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\YarnSimNetColli.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\YarnSimNetHeter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\YarnSimNetHomo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

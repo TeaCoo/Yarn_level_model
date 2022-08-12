@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{39c0ac78-e0eb-405d-a815-f52088ab6d41}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Yarn_level_Model</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\86137\Downloads\indicators-master\indicators-master\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>H5_BUILT_AS_DYNAMIC_LIB;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\include;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\include\torch\csrc\api\include;.\include;.\extern\include;.\extern\include\Alglib;.\extern\include\hdf5;.\extern\include\indicators;.\extern\include\boost</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>hdf5.lib;hdf5_cpp.lib;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib\c10.lib;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib\torch.lib;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib\torch_cpu.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\extern\lib\hdf5;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy .\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib .\x64\Debug /D /Y
+xcopy .\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib .\x64\Release /D /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>H5_BUILT_AS_DYNAMIC_LIB;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\include;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\include\torch\csrc\api\include;.\include;.\extern\include;.\extern\include\Alglib;.\extern\include\hdf5;.\extern\include\indicators;.\extern\include\boost</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <Optimization>Disabled</Optimization>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\extern\lib\hdf5;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>hdf5.lib;hdf5_cpp.lib;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib\c10.lib;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib\torch.lib;.\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib\torch_cpu.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy .\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib .\x64\Debug /D /Y
+xcopy .\extern\include\libtorch-win-shared-with-deps-debug-1.9.0+cpu\libtorch\lib .\x64\Release /D /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="extern\include\Alglib\alglibinternal.cpp" />
+    <ClCompile Include="extern\include\Alglib\alglibmisc.cpp" />
+    <ClCompile Include="extern\include\Alglib\ap.cpp" />
+    <ClCompile Include="extern\include\Alglib\dataanalysis.cpp" />
+    <ClCompile Include="extern\include\Alglib\diffequations.cpp" />
+    <ClCompile Include="extern\include\Alglib\fasttransforms.cpp" />
+    <ClCompile Include="extern\include\Alglib\integration.cpp" />
+    <ClCompile Include="extern\include\Alglib\interpolation.cpp" />
+    <ClCompile Include="extern\include\Alglib\kernels_avx2.cpp" />
+    <ClCompile Include="extern\include\Alglib\kernels_fma.cpp" />
+    <ClCompile Include="extern\include\Alglib\kernels_sse2.cpp" />
+    <ClCompile Include="extern\include\Alglib\linalg.cpp" />
+    <ClCompile Include="extern\include\Alglib\optimization.cpp" />
+    <ClCompile Include="extern\include\Alglib\solvers.cpp" />
+    <ClCompile Include="extern\include\Alglib\specialfunctions.cpp" />
+    <ClCompile Include="extern\include\Alglib\statistics.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\AugLag.cpp" />
+    <ClCompile Include="source\BVH.cpp" />
+    <ClCompile Include="source\Cloth.cpp" />
+    <ClCompile Include="source\Collision.cpp" />
+    <ClCompile Include="source\CollisionUtil.cpp" />
+    <ClCompile Include="source\Geometry.cpp" />
+    <ClCompile Include="source\Loader.cpp" />
+    <ClCompile Include="source\MatrixMp.cpp" />
+    <ClCompile Include="source\Mesh.cpp" />
+    <ClCompile Include="source\Obstacle.cpp" />
+    <ClCompile Include="source\PhysicsCloth.cpp" />
+    <ClCompile Include="source\Render.cpp" />
+    <ClCompile Include="source\Saver.cpp" />
+    <ClCompile Include="source\MySolver.cpp" />
+    <ClCompile Include="source\TrainHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extern\include\Alglib\alglibinternal.h" />
+    <ClInclude Include="extern\include\Alglib\alglibmisc.h" />
+    <ClInclude Include="extern\include\Alglib\ap.h" />
+    <ClInclude Include="extern\include\Alglib\dataanalysis.h" />
+    <ClInclude Include="extern\include\Alglib\diffequations.h" />
+    <ClInclude Include="extern\include\Alglib\fasttransforms.h" />
+    <ClInclude Include="extern\include\Alglib\integration.h" />
+    <ClInclude Include="extern\include\Alglib\interpolation.h" />
+    <ClInclude Include="extern\include\Alglib\kernels_avx2.h" />
+    <ClInclude Include="extern\include\Alglib\kernels_fma.h" />
+    <ClInclude Include="extern\include\Alglib\kernels_sse2.h" />
+    <ClInclude Include="extern\include\Alglib\linalg.h" />
+    <ClInclude Include="extern\include\Alglib\optimization.h" />
+    <ClInclude Include="extern\include\Alglib\solvers.h" />
+    <ClInclude Include="extern\include\Alglib\specialfunctions.h" />
+    <ClInclude Include="extern\include\Alglib\statistics.h" />
+    <ClInclude Include="extern\include\Alglib\stdafx.h" />
+    <ClInclude Include="include\AugLag.h" />
+    <ClInclude Include="include\BVH.h" />
+    <ClInclude Include="include\Cloth.h" />
+    <ClInclude Include="include\ClothUnit.h" />
+    <ClInclude Include="include\Collision.h" />
+    <ClInclude Include="include\CollisionUtil.h" />
+    <ClInclude Include="include\Constants.h" />
+    <ClInclude Include="include\Debugger.h" />
+    <ClInclude Include="include\Environment.h" />
+    <ClInclude Include="include\ForceNet.h" />
+    <ClInclude Include="include\Geometry.h" />
+    <ClInclude Include="include\Loader.h" />
+    <ClInclude Include="include\MatrixMp.h" />
+    <ClInclude Include="include\Mesh.h" />
+    <ClInclude Include="include\Obstacle.h" />
+    <ClInclude Include="include\PhysicsCloth.h" />
+    <ClInclude Include="include\Random.h" />
+    <ClInclude Include="include\Render.h" />
+    <ClInclude Include="include\Saver.h" />
+    <ClInclude Include="include\Simulate.h" />
+    <ClInclude Include="include\MySolver.h" />
+    <ClInclude Include="include\TestHeter.h" />
+    <ClInclude Include="include\TestHomo.h" />
+    <ClInclude Include="include\Train.h" />
+    <ClInclude Include="include\TrainColli.h" />
+    <ClInclude Include="include\TrainControl.h" />
+    <ClInclude Include="include\TrainEmbed.h" />
+    <ClInclude Include="include\TrainHelper.h" />
+    <ClInclude Include="include\TrainHeter.h" />
+    <ClInclude Include="include\TrainHomo.h" />
+    <ClInclude Include="include\Wind.h" />
+    <ClInclude Include="include\Yarn.h" />
+    <ClInclude Include="include\YarnSimNet.h" />
+    <ClInclude Include="include\YarnSimNetColli.h" />
+    <ClInclude Include="include\YarnSimNetHeter.h" />
+    <ClInclude Include="include\YarnSimNetHomo.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
